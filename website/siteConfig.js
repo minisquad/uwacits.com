@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'UWA CITS', // Title for your website.
   tagline: 'Discuss your subjects with your peers',
-  url: 'http://www.citsbot.com', // Your website URL
+  url: 'http://www.uwacits.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -38,8 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'general-info', label: 'Docs'},
+    {doc: 'doc4', label: 'Subjects'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],

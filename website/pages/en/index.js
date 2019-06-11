@@ -104,7 +104,7 @@ class Index extends React.Component {
           {
             content:
               '<div style="color: #fdf3e7; margin-top: 50px">' +
-              '<div style="text-align: justify; text-justify: inter-word">' +
+              '<div>    ' +
               '<strong>UWA CITS</strong> is a Discord server made by students, for students. <br><br> Discuss your subjects and exam questions with your peers and participate in discussion in an enriched workplace. <br><br>' +
               'Our bot allows for easy assignment of subjects to each user, without worrying about spam and clustered channels. <br><br> Subject information and question commands are available, all at your fingertips. ' +
               '</div>' +
