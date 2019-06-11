@@ -1,7 +1,7 @@
 ---
-id: server-structure
+id: general-info
 title: Latin-ish
-sidebar_label: Example Page
+sidebar_label: General Information
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
