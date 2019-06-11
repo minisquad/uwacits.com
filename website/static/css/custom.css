@@ -14,3 +14,17 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-color: #2C2F33;
+    background-color: #2C2F33;
+    color: white;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: blue;
+}

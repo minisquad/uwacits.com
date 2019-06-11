@@ -31,7 +31,7 @@ class HomeSplash extends React.Component {
 
     const Logo = props => (
       <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
+        <img src={props.img_src} alt="Project Logo"/>
       </div>
     );
 
@@ -64,14 +64,14 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`}/>
         <div style={heroStyle}>
           <div className="wrap">
             <div style={titleStyle}>
               <strong>UWA CITS</strong>
             </div>
             <div style={descriptionStyle}>
-              Discuss your subjects with your peers
+              Enriching your learning with modern technology
             </div>
           </div>
         </div>
@@ -84,33 +84,34 @@ class Index extends React.Component {
   render() {
     const {config: siteConfig, language = ''} = this.props;
     const {baseUrl} = siteConfig;
-    const buttonStyle = {
-      color: 'black'
-    };
 
     const Block = props => (
       <Container
         padding={['bottom', 'top']}
         id={props.id}
         background={props.background}>
-        <div style={{textAlign: 'center'}}>
         <GridBlock
-          align="center"
+          align="justify"
           contents={props.children}
           layout={props.layout}
         />
-          <br/>
-        <a style={buttonStyle} href="https://www.google.com.au">Join Now</a>
-        </div>
       </Container>
     );
 
     const Description = () => (
-      <Block background="dark">
+      <Block>
         {[
           {
             content:
-              'Discuss questions, exams and projects with your peers for your undergraduate CITS units.',
+              '<div style="color: #fdf3e7; margin-top: 50px">' +
+              '<div style="text-align: justify; text-justify: inter-word">' +
+              '<strong>UWA CITS</strong> is a Discord server made by students, for students. <br><br> Discuss your subjects and exam questions with your peers and participate in discussion in an enriched workplace. <br><br>' +
+              'Our bot allows for easy assignment of subjects to each user, without worrying about spam and clustered channels. <br><br> Subject information and question commands are available, all at your fingertips. ' +
+              '</div>' +
+              '<br>' +
+              '<a class="button" href="https://www.google.com.au" style="text-transform: none">Join Now</a>\n' +
+              '</div>'
+            ,
             image: `${baseUrl}img/undraw_ai.svg`,
             imageAlign: 'right'
           },
@@ -123,9 +124,9 @@ class Index extends React.Component {
 
     return (
       <div style={background}>
-        <HomeSplash siteConfig={siteConfig} language={language} />
+        <HomeSplash siteConfig={siteConfig} language={language}/>
         <div>
-          <Description />
+          <Description/>
         </div>
       </div>
     );
