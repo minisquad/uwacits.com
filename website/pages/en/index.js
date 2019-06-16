@@ -44,7 +44,7 @@ class HomeSplash extends React.Component {
     );
 
     const heroStyle = {
-      background: '#1E1F24',
+      background: '#20232a',
       padding: '50px 0',
       color: '#FFF',
       fontWeight: 300,
@@ -107,9 +107,9 @@ class Index extends React.Component {
               '<div>    ' +
               '<strong>UWA CITS</strong> is a Discord server made by students, for students. <br><br> Discuss your subjects and exam questions with your peers and participate in discussion in an enriched workplace. <br><br>' +
               'Our bot allows for easy assignment of subjects to each user, without worrying about spam and clustered channels. <br><br> Custom subject commands are available, all at your fingertips. ' +
+              '<br><br>' +
+              '<a class="button" href="https://discordapp.com/invite/r9RJ6Gg" style="text-transform: none;">Join Now</a>\n' +
               '</div>' +
-              '<br>' +
-              '<a class="button" href="https://discordapp.com/invite/r9RJ6Gg" style="text-transform: none">Join Now</a>\n' +
               '</div>'
             ,
             image: `${baseUrl}img/undraw_ai.svg`,
@@ -119,13 +119,13 @@ class Index extends React.Component {
       </Block>
     );
     const background = {
-      background: '#808080'
+      background: '#282c34'
     };
 
     return (
       <div style={background}>
         <HomeSplash siteConfig={siteConfig} language={language}/>
-        <div>
+        <div style={{marginTop: 0}}>
           <Description/>
         </div>
       </div>
