@@ -37,25 +37,22 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
+            <a href={this.docUrl('general-info.html', this.props.language)}>
               Getting Started
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
+            <a href={this.docUrl('subject-assignment', this.props.language)}>
               Features
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href="https://discord.me/uwacits">
+            <a href="https://discordapp.com/invite/r9RJ6Gg">
               Discord
             </a>
           </div>
           <div>
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
+            <a href={`${this.props.config.baseUrl}blog`}>News</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}

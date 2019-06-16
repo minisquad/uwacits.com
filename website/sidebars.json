@@ -1,10 +1,7 @@
 {
   "docs": {
-    "Getting Started": ["general-info", "doc12"],
-    "Global Features": ["doc2"],
-    "Subject Features": ["doc3"]
-  },
-  "docs-other": {
-    "Subjects": ["doc4", "doc5"]
+    "Getting Started": ["general-info", "server-help"],
+    "Global Features": ["subject-assignment"],
+    "Subject Features": ["supported-subjects", "subject-commands"]
   }
 }

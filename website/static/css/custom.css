@@ -25,6 +25,6 @@
 }
 
 .button:hover {
-    background-color: #4CAF50; /* Green */
-    color: blue;
+    background-color: black; /* Green */
+    color: white;
 }

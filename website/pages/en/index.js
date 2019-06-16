@@ -46,7 +46,7 @@ class HomeSplash extends React.Component {
     const heroStyle = {
       background: '#1E1F24',
       padding: '50px 0',
-      color: '#fdf3e7',
+      color: '#FFF',
       fontWeight: 300,
       lineHeight: 1.28
     };
@@ -103,13 +103,13 @@ class Index extends React.Component {
         {[
           {
             content:
-              '<div style="color: #fdf3e7; margin-top: 50px">' +
+              '<div style="color: #FFF; margin-top: 50px">' +
               '<div>    ' +
               '<strong>UWA CITS</strong> is a Discord server made by students, for students. <br><br> Discuss your subjects and exam questions with your peers and participate in discussion in an enriched workplace. <br><br>' +
-              'Our bot allows for easy assignment of subjects to each user, without worrying about spam and clustered channels. <br><br> Subject information and question commands are available, all at your fingertips. ' +
+              'Our bot allows for easy assignment of subjects to each user, without worrying about spam and clustered channels. <br><br> Custom subject commands are available, all at your fingertips. ' +
               '</div>' +
               '<br>' +
-              '<a class="button" href="https://www.google.com.au" style="text-transform: none">Join Now</a>\n' +
+              '<a class="button" href="https://discordapp.com/invite/r9RJ6Gg" style="text-transform: none">Join Now</a>\n' +
               '</div>'
             ,
             image: `${baseUrl}img/undraw_ai.svg`,
